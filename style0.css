@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box ;
+  }
+  body{
+      background-color:royalblue;
+      /* grey colour code */
+      /* <link rel = "stylesheet" href="index0.css"> */
+  }
+  .container{
+      max-width: 900px;
+      margin:0 auto ;
+  }
+  .apply_box{
+      max-width: 600px;
+      padding: 20px;
+      background-color: royalblue;
+      margin: 0 auto;
+      /* center a asar jnno */
+      margin-top: 50px ;
+      box-shadow: 4px 3px 5px rgba(1, 1, 1, 0.1);
+      border-radius: 10px;
+  }
+      .title_small{
+          font-size:20px ;
+      }
+      .img src{
+        margin-top: 50px ;
+        box-shadow: 4px 3px 5px rgba(1, 1, 1, 0.1);
+        border-radius: 10px;
+        width: 100%
+    }
+    button:hover {
+        background-color: rgb(47, 106, 69); 
+        border: 2px solid red; 
+        /* colour change hbe button a niye gele */
+        color : lightseagreen;
+        transition:0.3s ease-out;
+        cursor: pointer;
+    
+    }
+    @media(max-width:460px){
+        .img src{
+            grid-column:1 / span 1;
+        }
+    }
